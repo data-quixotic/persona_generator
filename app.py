@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set up OpenAI API client
-openai.api_key = ""
+openai.api_key = st.secrets["API_KEY"]
 
 
 # function to get list of tasks
